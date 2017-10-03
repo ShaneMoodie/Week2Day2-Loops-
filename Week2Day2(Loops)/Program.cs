@@ -87,7 +87,8 @@ namespace Week2Day2_Loops_
             }
 
 
-            int[] luckyNumber = { 3, 5, 7, 11, 15 };
+            int[] luckyNumber = { 31, 25, 7, 11, 15 };
+            Array.Sort(luckyNumber);
 
             foreach(int number in luckyNumber)
             {
