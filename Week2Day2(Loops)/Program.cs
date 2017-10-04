@@ -143,6 +143,45 @@ namespace Week2Day2_Loops_
 
             //Console.WriteLine("Thanks for playing the game!");
 
+
+            //GPA Calculation
+            //string userAnswer;
+            //do
+            //{
+            //    Console.WriteLine("Would you like to add a class to your GPA calculation?");
+            //    userAnswer = Console.ReadLine().ToUpper();
+            //    Console.WriteLine("What class would you like to add?");
+            //    string classAdd = Console.ReadLine().ToUpper();
+            //    Console.WriteLine("What is your letter grade for this class?");
+            //    string grade = Console.ReadLine().ToUpper();
+
+            //    Console.WriteLine("Would you like to add another class to your GPA calculator?");
+            //    userAnswer = Console.ReadLine().ToUpper();
+            //}
+            //while (userAnswer == "YES".ToUpper());
+
+
+            ////continue
+            //for(int i = 0; i < 20; i++)
+            //{
+            //    if(i % 2 == 0)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(i);
+
+            //}
+
+            ////break
+            for(int i = 1; i <= 20; i++)
+            {
+                if(i % 13 == 0)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("The loop has finished.");
        
 
         }
