@@ -103,7 +103,7 @@ namespace Week2Day2_Loops_
             //    Console.WriteLine(i);
             //}
 
-            ////While
+            ////While - conditional loop
             //Console.WriteLine("Do you want to play the game? (YES/NO)");
             //string playAgain = Console.ReadLine().ToLower();
             //while(playAgain == "YES".ToLower())
@@ -131,7 +131,7 @@ namespace Week2Day2_Loops_
             //}
 
 
-            ////dowhile
+            ////dowhile - essentially upside down while loop
             //string playAgain;
             //do
             //{
@@ -161,7 +161,7 @@ namespace Week2Day2_Loops_
             //while (userAnswer == "YES".ToUpper());
 
 
-            ////continue
+            ////continue - stops loop and proceeds to next iteration
             //for(int i = 0; i < 20; i++)
             //{
             //    if(i % 2 == 0)
@@ -172,17 +172,38 @@ namespace Week2Day2_Loops_
 
             //}
 
-            ////break
-            for(int i = 1; i <= 20; i++)
+            ////break - stops loop at predesignated point ---- USE SPARRINGLY and ONLY in loop
+            //for(int i = 1; i <= 20; i++)
+            //{
+            //    if(i % 13 == 0)
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("The loop has finished.");
+
+
+            ////Nested Loop - loop within a loop
+            //for (int i = 1; i <= 2; i++) //2 defines repeats
+            //{
+            //    for (int j = 1; j <= 4; j++) //4 defines number counted to (1-4)
+            //    {
+            //        Console.Write(j); //columns
+            //    }
+            //    Console.WriteLine(); //next row
+            //}
+
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                if(i % 13 == 0)
+                for (int col = 1; col <= row; col++)
                 {
-                    break;
+                    Console.Write(col + " ");
                 }
-                Console.WriteLine(i);
+                Console.WriteLine();
             }
-            Console.WriteLine("The loop has finished.");
-       
+            
 
         }
     }
