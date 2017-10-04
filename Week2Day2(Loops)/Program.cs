@@ -10,7 +10,7 @@ namespace Week2Day2_Loops_
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i <= 10; i++)
+            //for (int i = 0; i <= 10; i++)
             {
                 // Console.WriteLine(i);
             }
@@ -26,6 +26,8 @@ namespace Week2Day2_Loops_
             //    Console.WriteLine(words[i]); 
             //}
 
+
+            //Counting up
             //for (int i = 1; i <= 10; i++)
             //{
             //    Console.WriteLine(i); 
@@ -79,21 +81,69 @@ namespace Week2Day2_Loops_
             //}
 
 
-            string[] favoriteFoods = { "Steak", "Baked potato", "Lobster", "Tilapia", "Chili" };
+            //string[] favoriteFoods = { "Steak", "Baked potato", "Lobster", "Tilapia", "Chili" };
 
-            foreach(string food in favoriteFoods)
-            {
-                Console.WriteLine(food);
-            }
+            //foreach(string food in favoriteFoods)
+            //{
+            //    Console.WriteLine(food);
+            //}
 
 
-            int[] luckyNumber = { 31, 25, 7, 11, 15 };
-            Array.Sort(luckyNumber);
+            //int[] luckyNumber = { 31, 25, 7, 11, 15 };
+            //Array.Sort(luckyNumber);
 
-            foreach(int number in luckyNumber)
-            {
-                Console.WriteLine("Your lucky number is: " + number);
-            }
+            //foreach(int number in luckyNumber)
+            //{
+            //    Console.WriteLine("Your lucky number is: " + number);
+            //}
+
+            //Counting down
+            //for(int i = 10; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            ////While
+            //Console.WriteLine("Do you want to play the game? (YES/NO)");
+            //string playAgain = Console.ReadLine().ToLower();
+            //while(playAgain == "YES".ToLower())
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again (YES/NO)");
+            //    playAgain = Console.ReadLine();
+            //}
+
+
+            //Console.WriteLine("Hello PATIENT. Would you like to check into your appointment? (YES/NO)");
+            //string patientAnswer = Console.ReadLine().ToUpper();
+            //while(patientAnswer == "YES".ToUpper() || patientAnswer == "SURE".ToUpper())
+            //{
+            //    Console.WriteLine("PATIENT CHECK-IN SYSTEM");
+            //    Console.WriteLine("\n" + "Please type your full name.");
+            //    string userName = Console.ReadLine().ToUpper();
+            //    Console.WriteLine("\n" + "Please provide your 6-digit patient ID.");
+            //    int userID = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("\n" + "What is your appointment time?");
+            //    string apptTime = Console.ReadLine();
+
+            //    Console.WriteLine("Would you like to check in another patient?");
+            //    patientAnswer = Console.ReadLine().ToUpper();
+            //}
+
+
+            ////dowhile
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Great game!");
+            //    Console.WriteLine("Do you want to play again?");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain == "YES");
+
+            //Console.WriteLine("Thanks for playing the game!");
+
+       
 
         }
     }
